@@ -2,7 +2,6 @@
 
 # Activist Toolkit Sample Project
 https://xyjgrace.github.io/TeenDatingViolence/ 
-This is a place for you to start building your activist toolkit!
 
 
 ### Project Requirements
