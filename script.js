@@ -13,8 +13,8 @@ var factList = [
   "In the U.S., 25% of high school girls have been abused physically or sexually. Teen girls who are abused this way are 6 times more likely to become pregnant or contract a sexually transmitted infection (STI).",
 ];
 
-var fact = document.getElementsById("fact");
-var factButton = document.getElementsById("factButton");
+var fact = document.getElementById("fact");
+var factButton = document.getElementById("factButton");
 var count = 0;
 
 if (factButton) {
