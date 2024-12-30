@@ -109,20 +109,22 @@ img {
 }
 
 /* change CSS based on screen size*/
-/*breakpoint 1*/
+/*breakpoint 1
 
 @media screen and (max-width: 850px) {
  .flex-container {
    flex-wrap: wrap;
    flex-direction: column;
  }
-
+ 
  main {
    margin-left: 5%;
    margin-right: 5%;
  }
 
 }
+ */
+
 
 /* STYLE NAV BAR */
 
