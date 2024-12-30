@@ -1,0 +1,211 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+  background-color: rgb(253, 248, 231);
+  text-align: center;
+}
+
+main {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+/* STYLE TEXT */
+
+h1 {
+  color: #8b575c;
+  background-image: url("assets/flower.jpg");
+  margin-left: 15%; 
+  margin-right: 15%;
+  padding: 2em;
+  border: #8b575c solid;
+}
+
+h2 {
+  color: #c98986;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-top: 1em;
+  margin-left:18%;
+  margin-right:18%;
+  border-top: 5px solid goldenrod;
+  border-bottom: 5px solid goldenrod;
+}
+
+h3 {
+  color: #f6bdd1;
+  background-color: #8b575c;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-left:20%;
+  margin-right:20%;
+}
+
+h4 {
+  color: #F6E4F6;
+  background-color: #c98986;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+p {
+  font-size: 18px;
+  padding: 1em;
+  background-color: lavenderblush;
+  margin-bottom: 15px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.signslist {
+  padding: 5px;
+  margin-left: 30%;
+  margin-right: 30%;
+
+  border: 5px solid #8b575c;
+  border-radius: 30%;
+}
+.links {
+  background-color:#f6bdd1;
+  border-radius: 10%;
+  border:#c98986 solid 5px;
+  margin-bottom: 5px;
+}
+
+/* STYLE IMAGES */
+img {
+  display: flex;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid goldenrod;
+  border-radius: 7%;
+  text-align: center;
+}
+
+.sign {
+  width: 80%;
+  display: block;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  
+  border-radius: 5px;
+  border: 5px solid #8b575c;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex-item {
+  flex-basis: 100%;
+  margin: 1%;
+}
+
+/* change CSS based on screen size*/
+/*breakpoint 1*/
+
+@media screen and (max-width: 850px) {
+  .flex-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  main {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+}
+
+/* STYLE NAV BAR */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky+ .content {
+  padding-top: 60 px;
+}
+ul {
+  list-style-type: none;
+  background-color:blanchedalmond;
+  overflow: hidden;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: darkred ;
+  font-size: 1.3em;
+  padding: 1em;
+}
+
+li a:hover {
+  background-color: darksalmon
+}
+
+/* STYLE BUTTONS */
+.factGen{
+  background-color: rgb(255, 221, 126);
+  border-radius: 10%;
+  padding: 5em;
+
+  width: 300px;
+  margin-top: 3em;
+
+  margin-left: auto;
+  margin-right: auto;
+  
+  font-family: fantasy;
+  text-align: center;
+}
+
+.buttonWords {
+  background: none;
+  color: #8b575c;
+
+  margin:0;
+  padding:0;
+  font-size: 1.5 em;
+}
+
+#factButton {
+  color: darkred ;
+  font-size: 1.3em;
+  padding: 15px;
+  background-color: rgb(248, 181, 126);
+  font-family: fantasy;
+  border-radius: 12%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#factButton:hover {
+  background-color: pink;
+}
+
+#fact {
+  background: none;
+  font-family: sans-serif;
+  font-size: 1.5em;
+  color: #c98986;
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
+
+
+/* ADD MORE! */
